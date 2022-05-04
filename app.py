@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 
-openai.api_key = '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'
+openai.api_key = 'your key'
 
 def generateBlogTopics(prompt1):
     response = openai.Completion.create(
